@@ -3,8 +3,8 @@ import { Fragment } from "react";
 function Chat() {
   return (
     <Fragment>
-    <title>Birdo FFL|Messages</title>
-    <Navbar></Navbar>
+      <title>Birdo FFL|Messages</title>
+      <Navbar />
     </Fragment>
   );
 }

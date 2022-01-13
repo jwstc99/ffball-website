@@ -4,10 +4,11 @@ import {Navbar} from "../components/Navbar/navbar.js";
 function Profile() {
   return (
       <Fragment>
-      <Navbar></Navbar>
-      <head>
-      <title>Profile</title>
-      </head>
+        
+        <head>
+          <title>Profile</title>
+        </head>
+        <Navbar />
       </Fragment>
   );
 }
