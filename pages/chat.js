@@ -1,14 +1,12 @@
-import { Fragment } from "react";
 import {Navbar} from "../components/Navbar/navbar.js";
-
-function Home() {
+import { Fragment } from "react";
+function Chat() {
   return (
     <Fragment>
-    <title>Birdo FFL|Home</title>
+    <title>Birdo FFL|Messages</title>
     <Navbar></Navbar>
     </Fragment>
   );
 }
-export default Home;
 
-
+export default Chat;
