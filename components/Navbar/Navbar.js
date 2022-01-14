@@ -26,7 +26,7 @@ function NavItem(props) {
     return (
         <li className={NavbarCSS.navitem}>
             <Link href={props.link}>
-                <a href='#' className={NavbarCSS.iconbutton} >
+                <a className={NavbarCSS.iconbutton} >
                     {props.icon}
                 </a>
             </Link>
